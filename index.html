@@ -5,14 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Full Page Image</title>
   <style>
-    html, body {
+    * {
       margin: 0;
       padding: 0;
-      height: 100%;
+      box-sizing: border-box;
     }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background-color: #ffffff; 
+    }
+
     body {
-      background: url('skintilla.png') no-repeat center center fixed;
-      background-size: cover;
+      background-image: url('skintilla.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
     }
   </style>
 </head>
