@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="darkreader" content="disable" />
   <title>Full Page Image</title>
   <style>
     * {
@@ -24,20 +25,8 @@
       background-position: center;
       background-size: contain;
     }
-
-    /* Dummy element so Dark Reader sees something */
-    .darkreader-friendly {
-      position: absolute;
-      top: -100vh;
-      left: -100vw;
-      width: 1px;
-      height: 1px;
-      background-color: #fff;
-      color: #000;
-    }
   </style>
 </head>
 <body>
-  <div class="darkreader-friendly">.</div>
 </body>
 </html>
