@@ -15,7 +15,7 @@
       height: 100%;
       width: 100%;
       overflow: hidden;
-      background-color: #ffffff; 
+      background-color: #ffffff;
     }
 
     body {
@@ -24,8 +24,20 @@
       background-position: center;
       background-size: contain;
     }
+
+    /* Dummy element so Dark Reader sees something */
+    .darkreader-friendly {
+      position: absolute;
+      top: -100vh;
+      left: -100vw;
+      width: 1px;
+      height: 1px;
+      background-color: #fff;
+      color: #000;
+    }
   </style>
 </head>
 <body>
+  <div class="darkreader-friendly">.</div>
 </body>
 </html>
